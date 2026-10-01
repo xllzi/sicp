@@ -1,0 +1,25 @@
+{
+  "manifestVersion": 1,
+  "id": "3d0a2a57-931d-4473-83e7-746c857b6c20",
+  "name": "sicp",
+  "path": "/home/Qtmd/Programming/sicp/.zvec-grep",
+  "rootPaths": [
+    {
+      "absolutePath": "/home/Qtmd/Programming/sicp",
+      "recursive": true
+    }
+  ],
+  "indexPolicy": "enabled",
+  "embedding": {
+    "provider": "local",
+    "model": "potion-retrieval-32m",
+    "dimension": 512,
+    "metric": "cosine"
+  },
+  "indexVersion": 1,
+  "createdTime": 1789895222188,
+  "updatedTime": 1790823467373,
+  "embeddingRuntime": {
+    "device": "auto"
+  }
+}
